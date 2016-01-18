@@ -1,0 +1,23 @@
+{
+    "name": "ikwattro/elastigen",
+    "description": "Elastic Search Test Data Generator",
+    "type": "library",
+    "require": {
+        "elasticsearch/elasticsearch": "^2.1",
+        "fzaninotto/faker": "^1.5",
+        "symfony/console": "^3.0",
+        "symfony/event-dispatcher": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christophe Willemsen",
+            "email": "willemsen.christophe@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ikwattro\\ElastiGen\\": "src/"
+        }
+    }
+}

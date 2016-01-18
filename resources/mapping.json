@@ -1,0 +1,34 @@
+{
+  "mappings": {
+    "user": {
+      "properties": {
+        "uuid": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "first_name": {
+          "type": "string",
+          "analyzer": "english"
+        },
+        "organizations": {
+          "type": "nested",
+          "properties": {
+            "uuid": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

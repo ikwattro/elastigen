@@ -1,0 +1,19 @@
+{
+  "uuid": {
+    "type": "uuid",
+    "unique": true
+  },
+  "first_name": {
+    "type": "firstName"
+  },
+  "user.organizations.name": {
+    "type": "company"
+  },
+  "*.organizations.description": {
+    "type": "catchPhrase"
+  },
+  "location": {
+    "type": "geo",
+    "format": "string"
+  }
+}
